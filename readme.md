@@ -33,7 +33,7 @@ Since Laravel 5.5+ is using Package Discovery, there is no need manually insert 
 Publish config using command:
 
 ```bash
-php artisan vendor:publish --tag="Ptdot\LdapAuth\LdapAuthServiceProvider"
+php artisan vendor:publish --tag=config
 ```
 
 Set keys and values for your LDAP configuration in `.env` file.
